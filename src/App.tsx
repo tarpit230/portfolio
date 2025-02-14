@@ -34,8 +34,8 @@ function App() {
   };
 
   const handleScroll = (ref: React.RefObject<HTMLDivElement>) => {
-    ref?.current?.scrollIntoView({ behavior: "smooth" });
-  };
+    ref?.current?.scrollIntoView({ behavior: "smooth" })
+  }
 
   return (
     <div className="relative">
@@ -59,7 +59,7 @@ function App() {
           ref={sectionRefs.home}
           className="min-h-screen flex items-center justify-center bg-white bg-opacity-30"
         >
-          <HeroSection />
+          <HeroSection  />
         </section>
 
         <section
