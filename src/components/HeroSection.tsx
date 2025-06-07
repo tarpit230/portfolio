@@ -68,7 +68,7 @@ export default function HeroSection() {
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
           className="px-6 py-3 mt-6 rounded-lg bg-teal-500 text-white font-semibold"
         >
-          <a href="/assets/UpdatedResume.pdf" download="My_Resume.pdf">
+          <a href="/assets/FullStackResume.pdf" download="My_Resume.pdf">
             Download CV
           </a>
         </motion.button>
